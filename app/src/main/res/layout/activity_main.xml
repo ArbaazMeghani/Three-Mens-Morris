@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uic.cs.cs478.project4.amegha3.amegha3_project4.MainActivity"
+    android:id="@+id/tableLayout"
+    android:background="@color/backgroundColor" >
+
+    <Button
+        android:id="@+id/startGameBtn"
+        android:text="Start Game"
+        android:layout_height="50dp"
+        android:onClick="onStartGameClicked"/>
+
+    <TableRow
+        android:id="@+id/rowA"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/colA1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/colA2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/colA3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowB"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/colB1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/colB2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/colB3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowC"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/colC1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/colC2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/colC3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:color/transparent" />
+    </TableRow>
+
+</TableLayout>
